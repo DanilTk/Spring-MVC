@@ -32,6 +32,5 @@ public class MessageController {
     public String hello2(@PathVariable String name, @PathVariable String surname) {
 
         return "hello2";
-
     }
 }
